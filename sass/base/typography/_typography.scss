@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'CircularSpotifyTxT-Black';
+    src: url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Black.eot') format('eot'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Black.svg') format('svg'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Black.ttf') format('ttf'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Black.woff') format('woff'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularSpotifyTxT-Bold';
+    src: url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Bold.eot') format('eot'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Bold.svg') format('svg'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Bold.ttf') format('ttf'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Bold.woff') format('woff'),
+         url('../bx-desafio/assets/fonts/CircularSpotifyTxT-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";

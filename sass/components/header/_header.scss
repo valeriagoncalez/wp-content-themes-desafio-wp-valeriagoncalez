@@ -1,0 +1,39 @@
+#masthead {
+	position: fixed;
+	min-width: 100%;
+	z-index: 999;
+	top: 0;
+
+	.site-branding {		
+		padding: 26.75px 7.299%;
+		text-align: center;
+		background: #000000E6;
+	}		
+	a {
+		font-size: 0;
+	}	
+}
+.ultimo_post {
+	display: flex;
+  	align-items: center;
+	min-width: 100%;
+	height: auto;
+	min-height: 575px;
+}
+
+/* Min 480px */
+@media screen and (min-width: 480px) {
+	#masthead {
+		display: grid; 
+	    grid-template-columns: 1fr 2fr; 
+	    grid-template-rows: 1fr;    
+	    grid-template-areas: 
+	      "logo menu";
+	    background: #000000E6;  
+
+		.site-branding {
+			background: transparent;
+			text-align: left;
+		}
+	}
+}
